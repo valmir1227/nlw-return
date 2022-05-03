@@ -2,14 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.button {
-  @apply bg-violet-500
-  hover:bg-violet-700
-   py-2
-   px-6 
-   text-neutral-50 
-   font-bold text-lg 
-   rounded
-
-   transition-colors;
-}

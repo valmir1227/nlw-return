@@ -1,21 +1,7 @@
-interface ButtonProps {
-  text?: string;
-}
+import { Widget } from "./components/Widget";
 
-function Button(Props: ButtonProps) {
-  return (
-    <button className="button">
-      {Props.text ?? "Text"}
-    </button>
-  );
-}
-
-function App() {
-  return (
-    <div className="flex gap-2">
-      <Button text="Enviar" />
-    </div>
-  );
+export function App() {
+  return <Widget />;
 }
 
 export default App;
